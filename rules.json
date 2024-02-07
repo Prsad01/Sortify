@@ -1,0 +1,10 @@
+{
+    "rules":[
+    { "extension": ".pdf", "category": "Documents/PDF" },
+    { "extension": ".txt", "category": "Documents/TEXT" },
+    { "extension": ".docx", "category": "Documents/Word" },
+    { "extension": ".jpg", "category": "Images/JPEG" },
+    { "extension": ".png", "category": "Images/PNG" },
+    { "extension": ".png", "category": "Images/PNG" }
+    ]
+}
