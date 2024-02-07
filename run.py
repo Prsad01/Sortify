@@ -81,7 +81,7 @@ def file_org(config_file, source, target ):
                             sourcepath = os.path.join(source,file)
                             try:
                                 print(f"Moving : '{file}'")
-                                # shutil.move(sourcepath,destinationpath)
+                                shutil.move(sourcepath,destinationpath)
                                 info_logs(file,source,destinationpath)
                             except Exception as e:
                                 file_path = (destinationpath+'/'+file)
@@ -89,7 +89,7 @@ def file_org(config_file, source, target ):
                                 if userip in ['y','Y']:
                                     delete_file(file_path)
                                     print(f"Moving : '{file}'")
-                                    # shutil.move(sourcepath,destinationpath)
+                                    shutil.move(sourcepath,destinationpath)
                                     info_logs(file,sourcepath,destinationpath)
 
 
